@@ -1,0 +1,3 @@
+SQLALCHEMY_DATABASE_URI = "mysql://demo:Idk6fa@localhost/demo"
+DEBUG = True
+SECRET_KEY = "\x8a\xf2\x8e\x8d*\x15\xc2\xd3m\x15\xd4\x9c\x00\x94V\xb4\xae\xce\x06\x83o\xa4\xf9!"

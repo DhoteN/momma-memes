@@ -10,11 +10,10 @@ A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 * [Vue.js](https://vuejs.org/)
 
 ## What it deliveres
-* eCommerce UI template written in Vue.js/Quasar
+* Fun entertainment UI template written in Vue.js/Quasar
 
 ## Future release:
 * Mobile friendly
-* Seller related pages
 * Backend(planning to use [Python](https://www.python.org/))
 
 

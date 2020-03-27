@@ -26,7 +26,7 @@ git clone https://github.com/DhoteN/momma-memes.git
 
 ## Install the dependencies
 ```bash
-cd quasar-shopping
+cd momma-memes/quasar_app/
 npm install
 ```
 

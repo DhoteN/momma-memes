@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-toolbar-title>
           <div class="row text-subtitle2 q-pa-sm">
-            <div class="col-3 text-weight-bold text-subtitle1">Gag Meme</div>
+            <div class="col-3 text-weight-bold text-subtitle1">Momma Memes</div>
             <div class="col-1 cursor-pointer q-mt-xs">App</div>
             <div class="col-1 cursor-pointer q-mt-xs">Shop</div>
             <div class="col-1 cursor-pointer q-mt-xs">Meme</div>
@@ -27,9 +27,9 @@
     <q-page-container>
       <div class="row">
         <div class="col-2">
-          <q-card class="full-height">
-            <q-card-section class="q-py-sm text-h6 text-grey-8" style="border-bottom: 2px solid #1e8081">
-              <q-input label="search" v-model="search">
+          <q-card class="full-height no-shadow">
+            <q-card-section class="q-py-sm text-h6 text-grey-8">
+              <q-input label="search" dense v-model="search">
                 <template v-slot:append>
                   <q-icon name="search"/>
                 </template>
@@ -79,8 +79,8 @@
         </div>
 
         <div class="col-10">
-          <div class="row">
-      <div class="col-12">
+          <div class="row q-mt-md q-mb-sm">
+      <div class="col-12 q-pl-sm q-pr-lg">
       <q-carousel
         v-model="slide"
         transition-prev="scale"
@@ -90,7 +90,7 @@
         control-color="white"
         navigation
         arrows
-        height="300px"
+        height="270px"
         class="bg-grey-5 text-white shadow-1 rounded-borders q-pa-none"
       >
         <q-carousel-slide name="style" class="column no-wrap flex-center q-pa-none">
@@ -113,21 +113,21 @@
             <div class="col-8">
               <router-view/>
             </div>
-            <div class="col-4 q-mt-sm">
-              <q-card class="my-card" flat bordered>
+            <div class="col-4 q-mt-sm q-pr-lg">
+              <q-card class="my-card " flat>
                 <q-img
                   src="statics/right_sidebar/metallica.jpeg"
                 />
                 <q-card-section class="q-pa-none">
-                  <div class="text-5  q-mb-xs cursor-pointer ">The world right now !!!!!!!!</div>
+                  <div class="text-5  q-my-xs cursor-pointer ">The world right now !!!!!!!!</div>
                 </q-card-section>
               </q-card>
-              <q-card class="my-card" flat bordered>
+              <q-card class="my-card" flat>
                 <q-img
                   src="statics/right_sidebar/bane.jpeg"
                 />
                 <q-card-section class="q-pa-none">
-                  <div class="text-5 q-mb-xs cursor-pointer">He saw the Danger before we did.</div>
+                  <div class="text-5 q-my-xs cursor-pointer">He saw the Danger before we did.</div>
                 </q-card-section>
               </q-card>
             </div>

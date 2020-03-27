@@ -4,8 +4,8 @@
       <div class="row q-pa-sm">
         <div class="col-12">
           <q-img style="border-radius: 5px" :src="selected_type_data.icon" width="10%" class="float-left q-mr-lg"/>
-          <div class="text-weight-bold q-mt-lg">{{ selected_type_data.label }}</div>
-          <div class="q-pb-lg">{{ selected_type_data.description }}</div>
+          <div class="text-weight-bold text-subtitle1 q-mt-lg" v-if="selected_type_data.label">{{ selected_type_data.label }}</div>
+          <div class="q-pb-sm" v-if="selected_type_data.description">{{ selected_type_data.description }}</div>
           <div class="q-mt-sm">
             <q-tabs
             v-model="tab"
@@ -27,7 +27,7 @@
                 <q-chip v-for="tag in selected_type_data.tags" :label="tag"/>
               </div>
               <div class="row">
-                <div class="col-6">
+                <div class="col-8">
                   <q-list>
                     <q-item :class="index==0 ? '' : 'q-mt-md'" v-for="item,index in hot_options">
                       <q-item-section>
@@ -42,11 +42,15 @@
                           :poster="item.poster"
                         v-if="item.sources"
                         />
+                        <div class="q-mt-md q-ml-md">
+                          <q-icon size="20px" color="grey-9" name="comment"></q-icon><span class="text-grey-8 text-weight-bold q-pl-sm q-pr-md">4 Comments</span>
+                          <q-icon size="20px" color="primary" class="q-pb-xs cursor-pointer" name="reply"></q-icon><span class="text-primary text-weight-bold q-pl-sm q-pr-md  cursor-pointer">Reply</span>
+                        </div>
                       </q-item-section>
                     </q-item>
                   </q-list>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-4"></div>
                 </div>
 <!--              <div class="text-h6">Mails</div>-->
 <!--              Lorem ipsum dolor sit amet consectetur adipisicing elit.-->
@@ -180,6 +184,13 @@ export default {
         //         return item.label == type
         //     })[0]
         // }
+    },
+    mounted() {
+      let self=this;
+      setInterval(function () {
+        console.log("mayur");
+        self.hot_options = self.hot_options.sort(() => Math.random() - 0.5)
+      }, 9000);
     }
 }
 </script>

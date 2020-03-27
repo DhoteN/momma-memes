@@ -1,5 +1,4 @@
-# MommaMemes
-# Quasar Memes
+# Momma Memes
 
 A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 

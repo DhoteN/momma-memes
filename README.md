@@ -21,7 +21,7 @@ Fun entertainment UI template written in Vue.js/Quasar.
 * **Clone the repository**
 
 ```
-git clone https://github.com/mayur091193/quasar-shopping.git
+git clone https://github.com/DhoteN/momma-memes.git
 ```
 
 ## Install the dependencies

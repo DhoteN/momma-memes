@@ -2,7 +2,7 @@
 
 Fun entertainment UI template written in Vue.js/Quasar.
 
-## Site: [https://momma-memes.netlify.com/](https://momma-memes.netlify.com/)
+## Site: [https://momma-memes.netlify.com](https://momma-memes.netlify.com/)
 
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)

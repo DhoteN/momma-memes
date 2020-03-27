@@ -1,9 +1,8 @@
-# MommaMemes
-# Quasar Memes
+# Momma Memes
 
-A free and beautiful eCommerce UI template written in Vue.js/Quasar.
+Fun entertainment UI template written in Vue.js/Quasar.
 
-## Site: [https://momma-memes.netlify.com/](https://momma-memes.netlify.com/)
+## Site: [https://momma-memes.netlify.com](https://momma-memes.netlify.com/)
 
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)
@@ -22,12 +21,12 @@ A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 * **Clone the repository**
 
 ```
-git clone https://github.com/mayur091193/quasar-shopping.git
+git clone https://github.com/DhoteN/momma-memes.git
 ```
 
 ## Install the dependencies
 ```bash
-cd quasar-shopping
+cd momma-memes/quasar_app/
 npm install
 ```
 

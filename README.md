@@ -57,7 +57,7 @@ Reach out to me at "dhote.nikita3@gmail.com" for queries.
 **Home**
 <p float="left">
 	<kbd>
-<img src="src/assets/Layout.png" border="1" alt="Home"
+<img src="quasar_app/src/assets/Layout.png" border="1" alt="Home"
 	title="Home"  />
 		</kbd>
 </p>

@@ -1,6 +1,6 @@
 # Momma Memes
 
-A free and beautiful eCommerce UI template written in Vue.js/Quasar.
+Fun entertainment UI template written in Vue.js/Quasar.
 
 ## Site: [https://momma-memes.netlify.com/](https://momma-memes.netlify.com/)
 
